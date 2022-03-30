@@ -1,0 +1,211 @@
+ * {
+    list-style: none;
+ }
+ 
+ body {
+    --main-text-color: #212121;
+    --main-text-colorlight: #757575;
+    --second-text-color: #2196F3;
+    --third-text-color: #FFFFFF;
+    --bg-color: #2F303A;
+    --bg-colorlight: #F5F4FA;
+    --main-font: "Roboto", "Arial", "Impact", sans-serif;
+
+    font-family: var(--main-font);
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--main-text-color);
+}
+
+.top-logo {
+font-family: "Raleway", sans-serif;
+color: var(--second-text-color);
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.19;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration: none;
+}
+
+a.top-logo > span {
+    color: var(--main-text-color);
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-weight: 500;
+}
+
+.top-menu a:hover {
+    color: var(--second-text-color);
+}
+
+.top-adr a {
+    text-decoration: none;
+    color: var(--main-text-colorlight);
+    font-weight: 500;
+}
+
+.top-adr a:hover {
+    color: var(--second-text-color);
+}
+
+.top-adr a:focus {
+    color: var(--second-text-color);
+}
+
+.hero {
+    color: var(--third-text-color);
+    background-color: var(--bg-color);
+}
+
+.hero-title {
+    text-transform: uppercase;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.hero-but {
+    color: var(--third-text-color);
+    background-color: var(--second-text-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.deal-titles {
+    color: var(--main-text-color);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.deal-article {
+    color: var(--main-text-colorlight);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.team {
+    background-color: var(--bg-colorlight);
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.team-titles {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.team-position {
+    color: var(--main-text-colorlight);
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.bott {
+    color: var(--third-text-color);
+    background-color: var(--bg-color);
+}
+
+.bott-logo {
+    font-family: "Raleway", sans-serif;
+    color: var(--second-text-color);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    }
+    
+a.bott-logo > span {
+    color: var(--third-text-color);
+}
+    
+.bott-adr-info {
+    font-style: normal;
+    text-decoration: none;
+    color: var(--third-text-color);
+}
+    
+.bott-adr-info:hover {
+    color: var(--second-text-color);
+}
+    
+.bott-adr-info:focus {
+    color: var(--second-text-color);
+}
+
+.bott-adr-c {
+    font-style: normal;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+    
+.bott-adr-c:hover {
+    color: var(--second-text-color);
+}
+    
+.bott-adr-c:focus {
+    color: var(--second-text-color);
+}
+
+<!--для portfolio далее--> 
+
+#works {
+    background-color: #e5e5e5;
+} 
+
+.promo-titles {
+    font-family: var(--main-font);
+    background-color: var(--bg-colorlight);
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;    
+    cursor: pointer;
+}
+
+.promo-titles:hover {
+    background-color: var(--second-text-color);
+    color: var(--third-text-color);
+}
+    
+.demo-titles {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+    
+.demo-position {
+    color: var(--main-text-colorlight);
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+    

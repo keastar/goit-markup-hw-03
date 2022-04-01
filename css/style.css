@@ -111,8 +111,13 @@ a.top-logo > span {
 .hero {
     color: var(--third-text-color);
     background-color: var(--bg-color);
-
     height: 600px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hero-title {
@@ -122,6 +127,8 @@ a.top-logo > span {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
 }
 
 .hero-but {
@@ -136,15 +143,37 @@ a.top-logo > span {
     text-align: center;
     cursor: pointer;
 
-    width: 200px;
-    height: 50px;
+    padding: 8px 30px;
     border-radius: 4px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .deal {
     height: 769px;
+}
+
+.deal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.deal-container-list {
+    display: flex;
+    padding-left: 0;
+}
+
+.container-item {
+    margin-right: 30px;
+    
+}
+
+.container-item:last-child {
+    margin-right: 0px;
+}
+
+.pic {
+    height: 294px;
 }
 
 .deal-titles {
@@ -154,6 +183,10 @@ a.top-logo > span {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
+    width: 270px;
+    height: 16px;
+    margin-top: 94px;
 }
 
 .deal-article {
@@ -161,12 +194,21 @@ a.top-logo > span {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-top: 10px;
+   
+    width: 270px;
+    height: 75px;
 }
 
 .team {
     background-color: var(--bg-colorlight);
-
     height: 648px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-title {
@@ -174,6 +216,34 @@ a.top-logo > span {
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+
+    margin-bottom: 50px;
+    margin-top: 94px;
+}
+
+.deal-container-list-pic {
+    display: flex;
+    padding-left: 0;
+}
+
+.team-container-list {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.teamit {
+    height: 368px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+
+.img-teamit {
+    display: block;
+    margin-bottom: 30px;
 }
 
 .team-titles {
@@ -182,6 +252,9 @@ a.top-logo > span {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+
+    margin: 0 0 10px;
+    text-align: center;
 }
 
 .team-position {
@@ -189,12 +262,20 @@ a.top-logo > span {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .bott {
     width: inherit;
     color: var(--third-text-color);
     background-color: var(--bg-color);
+}
+
+.bott-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .bott-logo {
@@ -205,7 +286,11 @@ a.top-logo > span {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    }
+
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
     
 a.bott-logo > span {
     color: var(--third-text-color);
@@ -238,6 +323,20 @@ a.bott-logo > span {
 .bott-adr-c:focus {
     color: var(--second-text-color);
 }
+
+.bott-adr-list {
+    padding-left: 0;
+}
+
+.bott-adr-item:nth-last-child(n+2) {
+    margin-bottom: 9px;
+}
+
+.bott-adr-item:nth-last-child(-n+1) {
+    margin-bottom: 60px;
+}
+
+
 
 <!--для portfolio далее--> 
 

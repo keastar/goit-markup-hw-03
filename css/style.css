@@ -344,6 +344,49 @@ a.bott-logo > span {
     background-color: #e5e5e5;
 } 
 
+.promodemo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 94px;
+    border-top: 1px solid #ECECEC;
+}
+
+.promodemo-container-list {
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.promodemo-item {
+    padding: 6px;
+    margin-right: 8px;
+    margin-bottom: 56px;
+}
+
+.demo-container-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 94px;
+}
+
+.demo-item {
+    width: 370px;
+    background: #FFFFFF;    
+}
+
+.demo-item:not(:nth-child(3n+3)) {
+    margin-right: 30px;
+}
+
+.demo-item:not(:nth-child(n+7)) {
+    margin-bottom: 30px;
+}
+
+.demo-item-pic {
+    display: block;
+}
+
 .promo-titles {
     font-family: var(--main-font);
     background-color: var(--bg-colorlight);
@@ -353,11 +396,19 @@ a.bott-logo > span {
     line-height: 1.63;
     letter-spacing: 0.03em;    
     cursor: pointer;
+    padding: 6px 22px;
 }
 
 .promo-titles:hover {
     background-color: var(--second-text-color);
     color: var(--third-text-color);
+}
+
+.demo-block {
+    border-top: 0px;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
 }
     
 .demo-titles {
@@ -366,6 +417,7 @@ a.bott-logo > span {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    padding: 20px 24px 4px;
 }
     
 .demo-position {
@@ -373,5 +425,7 @@ a.bott-logo > span {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    padding-left: 24px;
+    margin-bottom: 20px;
 }
     

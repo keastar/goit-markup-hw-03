@@ -28,7 +28,6 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .top {
-    height: 80px;
     vertical-align: 50%;
 }
 
@@ -50,6 +49,7 @@ text-decoration: none;
 
 margin-right: 93px;
 padding-top: 24px;
+padding-bottom: 25px;
 
 }
 
@@ -72,6 +72,7 @@ a.top-logo > span {
     align-items: center;
     padding: 0;
     padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .top-list-item {
@@ -88,6 +89,7 @@ a.top-logo > span {
     margin-right: 0;
     margin-left: auto;
     padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .top-adr-item {
@@ -111,7 +113,8 @@ a.top-logo > span {
 .hero {
     color: var(--third-text-color);
     background-color: var(--bg-color);
-    height: 600px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .hero-container {
@@ -127,8 +130,7 @@ a.top-logo > span {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
-    margin-top: 200px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .hero-but {
@@ -148,7 +150,8 @@ a.top-logo > span {
 }
 
 .deal {
-    height: 769px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .deal-container {
@@ -186,7 +189,6 @@ a.top-logo > span {
 
     width: 270px;
     height: 16px;
-    margin-top: 94px;
 }
 
 .deal-article {
@@ -194,7 +196,7 @@ a.top-logo > span {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    margin-top: 10px;
+    padding-top: 10px;
    
     width: 270px;
     height: 75px;
@@ -202,7 +204,8 @@ a.top-logo > span {
 
 .team {
     background-color: var(--bg-colorlight);
-    height: 648px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .team-container {
@@ -217,8 +220,17 @@ a.top-logo > span {
     line-height: 1.17;
     letter-spacing: 0.03em;
 
-    margin-bottom: 50px;
-    margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
+.team-titlec {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+
+    padding-bottom: 50px;
 }
 
 .deal-container-list-pic {
@@ -243,7 +255,12 @@ a.top-logo > span {
 
 .img-teamit {
     display: block;
-    margin-bottom: 30px;
+}
+
+.bot-teamit {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
 }
 
 .team-titles {
@@ -253,7 +270,7 @@ a.top-logo > span {
     line-height: 1.19;
     letter-spacing: 0.03em;
 
-    margin: 0 0 10px;
+    padding-bottom: 10px;
     text-align: center;
 }
 
@@ -262,8 +279,6 @@ a.top-logo > span {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-
-    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -271,6 +286,8 @@ a.top-logo > span {
     width: inherit;
     color: var(--third-text-color);
     background-color: var(--bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .bott-container {
@@ -287,8 +304,7 @@ a.top-logo > span {
     letter-spacing: 0.03em;
     text-decoration: none;
 
-    margin-top: 60px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 
 }
     
@@ -329,14 +345,8 @@ a.bott-logo > span {
 }
 
 .bott-adr-item:nth-last-child(n+2) {
-    margin-bottom: 9px;
+    padding-bottom: 9px;
 }
-
-.bott-adr-item:nth-last-child(-n+1) {
-    margin-bottom: 60px;
-}
-
-
 
 <!--для portfolio далее--> 
 
@@ -344,23 +354,53 @@ a.bott-logo > span {
     background-color: #e5e5e5;
 } 
 
+.promodemo {
+    border-top: 1px solid #ECECEC;
+}
+
 .promodemo-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 94px;
-    border-top: 1px solid #ECECEC;
 }
 
 .promodemo-container-list {
     display: flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap; 
+    padding-left: 0; 
 }
 
 .promodemo-item {
-    padding: 6px;
     margin-right: 8px;
-    margin-bottom: 56px;
+    margin-bottom: 50px; 
+
+}
+
+.promodemo-item:last-child {
+    margin-right: 0;
+}
+
+.promo-titles {
+    font-family: var(--main-font);
+    background-color: var(--bg-colorlight);
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;    
+    cursor: pointer;
+    padding: 4px 20px;
+
+    border-radius: 4px;
+    border: rgba(255, 255, 255, 0);
+}
+
+.promo-titles:hover {
+    background-color: var(--second-text-color);
+    color: var(--third-text-color);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .demo-container-list {
@@ -387,28 +427,14 @@ a.bott-logo > span {
     display: block;
 }
 
-.promo-titles {
-    font-family: var(--main-font);
-    background-color: var(--bg-colorlight);
-    color: var(--main-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    letter-spacing: 0.03em;    
-    cursor: pointer;
-    padding: 6px 22px;
-}
-
-.promo-titles:hover {
-    background-color: var(--second-text-color);
-    color: var(--third-text-color);
-}
-
 .demo-block {
     border-top: 0px;
-    border-right: 1px solid #CCCCCC;
-    border-bottom: 1px solid #CCCCCC;
-    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
 }
     
 .demo-titles {
@@ -417,7 +443,7 @@ a.bott-logo > span {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    padding: 20px 24px 4px;
+    padding-bottom: 4px;
 }
     
 .demo-position {
@@ -425,7 +451,5 @@ a.bott-logo > span {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
-    padding-left: 24px;
-    margin-bottom: 20px;
 }
     

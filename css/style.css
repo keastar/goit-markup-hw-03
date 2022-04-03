@@ -151,7 +151,6 @@ a.top-logo > span {
 
 .deal {
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .deal-container {
@@ -173,6 +172,17 @@ a.top-logo > span {
 
 .container-item:last-child {
     margin-right: 0px;
+}
+
+.rools {
+
+    padding-bottom: 94px;
+}
+
+.rools-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pic {
@@ -356,13 +366,14 @@ a.bott-logo > span {
 
 .promodemo {
     border-top: 1px solid #ECECEC;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .promodemo-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 94px;
 }
 
 .promodemo-container-list {
@@ -407,7 +418,6 @@ a.bott-logo > span {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
-    margin-bottom: 94px;
 }
 
 .demo-item {

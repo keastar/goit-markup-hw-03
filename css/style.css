@@ -175,7 +175,7 @@ a.top-logo > span {
 }
 
 .rools {
-
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -230,7 +230,6 @@ a.top-logo > span {
     line-height: 1.17;
     letter-spacing: 0.03em;
 
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 
